@@ -9,4 +9,5 @@ def firstNonRepeatingCharacter(string):
     for idx, char in enumerate(string):
         if char_freq[char] == 1:
             return idx
+
     return -1
